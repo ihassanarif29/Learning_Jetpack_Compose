@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Learning Jetpack Compose</string>
+    <string name="welcome_string">Welcome to Coding With Hassan</string>
 </resources>
