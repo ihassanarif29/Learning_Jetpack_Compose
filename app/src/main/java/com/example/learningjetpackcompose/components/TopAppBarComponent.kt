@@ -22,7 +22,6 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.learningjetpackcompose.R
-import com.example.learningjetpackcompose.ui.theme.CWHGrey
 import com.example.learningjetpackcompose.ui.theme.CWHPrimary
 
 @Preview(showSystemUi = true)
@@ -45,7 +44,7 @@ fun TopAppBarExample(){
             Image(
                 painter = painterResource(R.drawable.title),
                 "Title",
-                modifier = Modifier.size(180.dp)
+                modifier = Modifier.size(160.dp)
             )
         },
         navigationIcon = {
@@ -54,12 +53,12 @@ fun TopAppBarExample(){
                     Icons.Rounded.Menu,
                     "Icon",
                     tint = CWHPrimary,
-                    modifier = Modifier.size(70.dp)
+                    modifier = Modifier.size(26.dp)
                 )
             }
         },
         colors = TopAppBarDefaults.topAppBarColors(
-            CWHGrey,
+            Color.White,
             navigationIconContentColor = CWHPrimary
         ),
         actions = {
@@ -68,7 +67,7 @@ fun TopAppBarExample(){
                     Icons.Default.Search,
                     "Search Icon",
                     tint = CWHPrimary,
-                    modifier = Modifier.size(70.dp)
+                    modifier = Modifier.size(26.dp)
                 )
             }
             IconButton(onClick = {}) {
@@ -76,7 +75,7 @@ fun TopAppBarExample(){
                     Icons.Default.MoreVert,
                     "MoreVert Icon",
                     tint = CWHPrimary,
-                    modifier = Modifier.size(70.dp)
+                    modifier = Modifier.size(26.dp)
                 )
             }
         }
