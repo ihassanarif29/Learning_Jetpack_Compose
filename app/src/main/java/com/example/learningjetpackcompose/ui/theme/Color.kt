@@ -12,7 +12,6 @@ val Pink40 = Color(0xFF7D5260)
 
 
 val CWHPrimary = Color(0xFF522C89)
-
 val CWHLighGray = Color(0xFFCDCED0)
 val CWHGray = Color(0xFFACB3C0)
 val CWHGreen = Color(0xFF85CEB9)
