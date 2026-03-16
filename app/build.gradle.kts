@@ -58,12 +58,18 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
 
-    //Splash Screen
+    // Splash Screen
     implementation("androidx.core:core-splashscreen:1.2.0")
 
-    //Navigation
+    // Navigation
     implementation("androidx.navigation:navigation-compose:2.9.7")
 
-    //Constraint Layout
+    // Constraint Layout
     implementation("androidx.constraintlayout:constraintlayout-compose-android:1.1.1")
+
+    // MVVM
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0")
+
+    implementation("androidx.compose.foundation:foundation:1.6.6")
+
 }
