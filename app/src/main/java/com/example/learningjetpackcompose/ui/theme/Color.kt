@@ -20,3 +20,5 @@ val CWHLighGray = Color(0xFFCDCED0)
 val CWHGray = Color(0xFFACB3C0)
 val CWHGreen = Color(0xFF85CEB9)
 val CWHBlue = Color(0xFF7CD1EA)
+
+val CWHTransparentBlack = Color(0x68171717)
